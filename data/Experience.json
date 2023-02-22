@@ -1,69 +1,76 @@
 [
+  {
+    "where": "Wastezon",
+    "name": "Wastezon",
+    "location" : "Rwanda",
+    "link": "https://www.thegym-rwanda.com",
+    "role": "Frontend developer",
+    "time": "Nov 2022 - March 2022",
+    "stacks" : [
+      "ReactJS", "TaiwindCSS"
+    ],
+    "whoWeDo": [
+      "Developed an application called wastezonx, that helps buyers and sellers to interact over the platform ...."
+    ]
+  },
+
+  {
+    "where": "The Gym Rwanda",
+    "name": "The Gym Rwanda",
+    "location" : "Rwanda",
+    "link": "https://www.thegym-rwanda.com",
+    "role": "Javascript coach",
+    "time": "Sep 2022 - Feb 2022",
+    "stacks" : [
+      "JavaScript"
+    ],
+    "whoWeDo": [
+      "Worked a s a JavaScript mental modal coach, coaching 15 developers and interviewing them weekely every friday"
+    ]
+  },
     {
-      "where": "TheGym",
-      "name": "TheGymRwanda",
+      "where": "The Gathering Place",
+      "name": "The Gathering Place",
+      "location" : "San Francisco",
       "link": "https://www.thegym-rwanda.com",
-      "role": "Developer",
-      "time": "Sep 2022",
+      "role": "Frontend Developer",
+      "time": "Feb 2022 - Aug 2022",
+      "stacks" : [
+        "ReactJS", "Recoil", "MaterialUI"
+      ],
       "whoWeDo": [
-        "Our team specializes in delivering cutting-edge solutions for blockchain, Javascript And Solidity",
-        "We have extensive experience working with European companies, including Ape Unit, to develop top-notch blockchain applications.",
-        "Our expertise in Node.js, Javascript and ReactJS technology enables us to create seamless backend and frontend solutions for businesses."
+        "Our team specializes in delivering cutting-edge solutions for blockchain, Javascript And Solidity"
       ]
     },
     {
-      "where": "qwerty",
-      "name": "rw.qwerty",
-      "link": "https://github.com/rwqwerty",
-      "role": "Core Founder",
-      "time": "Jan 2021",
+      "where": "Bafana World",
+      "name": "Bafana World",
+      "location" : "Rwanda",
+      "link": "https://www.thegym-rwanda.com",
+      "role": "Frontend Developer",
+      "time": "Apr 2022 - Sep 2022",
+      "stacks" : [
+        "NuxtJS", "Jest", "MaterialUI"
+      ],
       "whoWeDo": [
-        "Our team has a wealth of experience developing websites and apps for Rwandan companies, using the latest technologies including ReactJS, Node.js, PHP, Laravel, and Flutter.",
-        "Our expertise in the latest technology combined with our deep understanding of the Rwandan market allows us to provide customized, effective solutions for businesses of all sizes."
+        "Developed second version of company website and enhanced handling user payments by integrating MTN API alongside flutterwave"
       ]
     },
     {
-      "where": "LevelApp",
-      "name": "Levelapp",
-      "link": "https://github.com/HAN-Creative",
-      "role": "Core Founder",
-      "time": "Jan 2020",
+      "where": "Global Green Visa",
+      "name": "Global Green Visa",
+      "location" : "US",
+      "link": "https://www.thegym-rwanda.com",
+      "role": "Frontend Developer",
+      "time": "June 2022 - Aug 2022",
+      "stacks" : [
+        "NextJS", "MaterialUI"
+      ],
       "whoWeDo": [
-        "From radio stations website to e-commerce websites, we've helped businesses unlock their potential through innovative digital technology solutions, and we're just getting started."
-      ]
-    },
-
-    {
-      "where": "LevelApp",
-      "name": "Levelapp",
-      "link": "https://github.com/HAN-Creative",
-      "role": "Core Founder",
-      "time": "Jan 2020",
-      "whoWeDo": [
-        "From radio stations website to e-commerce websites, we've helped businesses unlock their potential through innovative digital technology solutions, and we're just getting started."
-      ]
-    },
-
-    {
-      "where": "LevelApp",
-      "name": "Levelapp",
-      "link": "https://github.com/HAN-Creative",
-      "role": "Core Founder",
-      "time": "Jan 2020",
-      "whoWeDo": [
-        "From radio stations website to e-commerce websites, we've helped businesses unlock their potential through innovative digital technology solutions, and we're just getting started."
-      ]
-    },
-    {
-      "where": "LevelApp",
-      "name": "Levelapp",
-      "link": "https://github.com/HAN-Creative",
-      "role": "Core Founder",
-      "time": "Jan 2020",
-      "whoWeDo": [
-        "From radio stations website to e-commerce websites, we've helped businesses unlock their potential through innovative digital technology solutions, and we're just getting started."
+        "Worked in a team with other developers to develope a platform that helps users to explore tourist areas"
       ]
     }
+    
   ]
   
   
