@@ -32,11 +32,11 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
 
     return (
 
-        <div className='grid grid-cols-2 gap-20 mt-20  overflow-x-hidden'>
-            <div className={` space-y-4 order-2 ${index % 2 !== 0 ? 'md:order-2' : 'md:order-1'}`}>
+        <div className='flex justify-between h-[45vh]  mt-20  overflow-x-hidden'>
+            <div className={`w-2/5 space-y-4 order-2 ${index % 2 !== 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <p className="text-4xl text-white font-bold">{title}</p>
                 <p className="text-white/70 text-xl leading-[30px] tracking-[1px]">{description}</p>
-                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="animate-bounce" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 12V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H12M8.11111 12H12M12 12V15.8889M12 12L5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <div className="flex gap-4">
@@ -53,8 +53,17 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
                 variants={boxVariants}
                 initial="hidden"
                 animate={control}
-                className=" flex flex-col items-center order-1 md:justify-center">
-                <Image className={` ${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={usedImage} alt="image" />
+                className="relative flex order-1  w-1/2">
+
+                <div className="w-1/2 h-1/2 relative">
+                    <Image layout="fill" className={`  rounded   ${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
+
+                </div>
+
+                <div className="w-3/5 h-3/5 absolute  top-[5rem] right-10">
+                    <Image layout="fill" className={` rounded ${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
+
+                </div>
 
 
             </motion.div>
