@@ -43,7 +43,7 @@ With every line of code, I strive to make the web a better place.</p>
 
     <PageWrapper>
             <h1>name="Where I’ve Worked" number={"02"}</h1> 
-            <div className="flex relative overflow-auto scrollbar--hidden sm:hidden mb-10 text-white">
+            <div className="flex relative px-6 overflow-x-scroll  sm:hidden mb-10 text-white">
               <div
                 className="absolute w-32 rounded-full transition-all delay-100 bg-white h-0.5 bottom-0"
                 style={{ left: `${whereIWork * 128}px` }}
@@ -53,17 +53,17 @@ With every line of code, I strive to make the web a better place.</p>
                   <button
                     key={k}
                     onClick={() => setWhereIWork(k)}
-                    className={`px-5 bg-red-500 text-white outline-none py-2 min-w-[128px] w-32 text-[16px] transition-all delay-100 text-center ${
+                    className={`px-5  text-white outline-none py-2 min-w-[128px] w-32 text-[16px] transition-all delay-100 text-center ${
                       whereIWork === k ? "text-white" : "text-secondary-100"
                     }`}
                   >
-                    hello
-                    {/* {v.where} */}
+                    
+                    {v.where}
                   </button>
                 );
               })}
             </div>
-            <div className="flex gap-7 w-full md:w-9/12">
+            <div className="flex gap-7 w-2/3 md:w-9/12">
               <div className="hidden relative sm:flex">
                 <div
                   className="absolute w-0.5 rounded-full transition-all delay-100 bg-white h-[34px]"
