@@ -11,7 +11,7 @@ const fullstackProjects = [
             { name: "Redux" },
             { name: "TailwindCSS" },
         ],
-        image: "../public/assets/stripe.png"
+        image: "../public/assets/easysearch.png"
 
     },
 

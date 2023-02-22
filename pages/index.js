@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 import { projects } from '../data/projects'
 import profile from '../public/assets/profile.jpg'
 import Projects from '../components/sections/Projects'
+import PageWrapper from '../components/Wrappers/PageWrapper'
 
 export default function Home() {
   const router = useRouter()
@@ -40,12 +41,9 @@ With every line of code, I strive to make the web a better place.</p>
 
     </section>
 
-    <section
-            className="mb-[50px] pt-20 sm:mb-[130px] w-full sm:w-fit mx-auto"
-            id="Experience"
-          >
+    <PageWrapper>
             <h1>name="Where I’ve Worked" number={"02"}</h1> 
-            <div className="flex relative overflow-auto scrollbar--hidden sm:hidden mb-10">
+            <div className="flex relative overflow-auto scrollbar--hidden sm:hidden mb-10 text-white">
               <div
                 className="absolute w-32 rounded-full transition-all delay-100 bg-white h-0.5 bottom-0"
                 style={{ left: `${whereIWork * 128}px` }}
@@ -55,11 +53,12 @@ With every line of code, I strive to make the web a better place.</p>
                   <button
                     key={k}
                     onClick={() => setWhereIWork(k)}
-                    className={`px-5 outline-none py-2 min-w-[128px] w-32 text-[16px] transition-all delay-100 text-center ${
+                    className={`px-5 bg-red-500 text-white outline-none py-2 min-w-[128px] w-32 text-[16px] transition-all delay-100 text-center ${
                       whereIWork === k ? "text-white" : "text-secondary-100"
                     }`}
                   >
-                    {v.where}
+                    hello
+                    {/* {v.where} */}
                   </button>
                 );
               })}
@@ -76,7 +75,7 @@ With every line of code, I strive to make the web a better place.</p>
                       <button
                         key={k}
                         onClick={() => setWhereIWork(k)}
-                        className={`px-5 outline-none py-2 text-[16px] transition-all delay-100 text-start ${
+                        className={`px-5 text-white outline-none py-2 text-[16px] transition-all delay-100 text-start ${
                           whereIWork === k ? "text-white" : "text-secondary-100"
                         }`}
                       >
@@ -87,20 +86,20 @@ With every line of code, I strive to make the web a better place.</p>
                 </div>
               </div>
               <div>
-                <h2 className="text-2xl font-medium text-secondary-200">
+                <h2 className="text-2xl font-medium text-white">
                   {Experience[whereIWork].role}{" "}
                   <span className="text-white">
                     @{" "}
                     <Link
                       href={Experience[whereIWork].link}
                       target="_blank"
-                      className="text--underline"
+                      className="text--underline text-white"
                     >
                       {Experience[whereIWork].name}
                     </Link>
                   </span>
                 </h2>
-                <p className="text-secondary-300 mt-2 mb-[25px]">
+                <p className="text-white/70 mt-2 mb-[25px]">
                   {Experience[whereIWork].time} <span className="px-2">-</span>{" "}
                   Present
                 </p>
@@ -108,7 +107,7 @@ With every line of code, I strive to make the web a better place.</p>
                   return (
                     <div className="flex gap-4" key={k}>
                       <span className="text-lg text-white">{"▹"}</span>
-                      <p className="text-lg text-secondary-300 leading-6 mb-3">
+                      <p className="text-lg text-white/70 tracking-[1px] leading-[30px] mb-3">
                         {v}
                       </p>
                     </div>
@@ -117,7 +116,7 @@ With every line of code, I strive to make the web a better place.</p>
               </div>
             </div>
 
-          </section>
+            </PageWrapper>
 
     <Projects />
 
