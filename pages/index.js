@@ -80,7 +80,7 @@ export default function Home() {
                     <button
                       key={k}
                       onClick={() => setWhereIWork(k)}
-                      className={`px-5 w-64 text-white outline-none py-2 text-[16px] transition-all delay-100 text-start ${whereIWork === k ? "text-white" : "text-secondary-100"
+                      className={`px-5 w-64  text-white outline-none py-2 text-[16px] transition-all delay-100 text-start ${whereIWork === k ? "text-[#1d99b3] font-bold text-lg": "text-secondary-100"
                         }`}
                     >
                       {v.where}
