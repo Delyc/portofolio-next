@@ -9,11 +9,13 @@ import {motion} from 'framer-motion'
 const inter = Inter({ subsets: ['latin'] })
 import { projects } from '../data/projects'
 import profile from '../public/assets/profile.jpg'
+import Projects from '../components/sections/Projects'
 export default function Home() {
   return (
     <>
+<Projects />
 
-    <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 px-6'>
+    {/* <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 px-6'>
 
       <div className='text-xl w-full text-center text-white py-10 bg-gray-800'>Site currently under development, However you can be able to view some of the projects. <br /> THANK YOU :)</div>
     <section className='xl:px-44 px-6 py-12 xl:flex xl:flex-row xl:justify-between xl:items-center flex flex-col gap-5'>
@@ -64,8 +66,8 @@ With every line of code, I strive to make the web a better place.</p>
 
      <footer className='my-10'>
       <a href="https://github.com/Delyc" className='text-white opacity-70'>Github</a>
-     </footer>
-     </main>
+     </footer> */}
+     {/* </main> */}
     
     </>
   )
