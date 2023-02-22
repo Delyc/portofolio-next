@@ -20,13 +20,13 @@ export default function Home() {
     <>
 
 
-    <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 px-6'>
+    <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 px-2'>
 
     <section className='xl:px-44 px-6 py-12 xl:flex xl:flex-row xl:justify-between xl:items-center flex flex-col gap-5'>
       <div className='flex flex-col gap-10'>
       <h1 className='text-white font-bold text-xl'>Hi, I am <br /></h1>
       <h1 className='text-3xl text-white font-bold'> Delyce Twizeyimana</h1>
-      <h1 className='text-6xl text-[#1d99b3] font-bold'>A frontend developer</h1>
+      <h1 className='md:text-6xl text-4xl text-[#1d99b3] font-bold'>A frontend developer</h1>
       <p className='text-white opacity-70 text-2xl w-full xl:w-3/5 leading-[2.5rem]'>I craft interactive and beautiful web apps, and I love what I do.
 
 With every line of code, I strive to make the web a better place.</p>
@@ -43,7 +43,7 @@ With every line of code, I strive to make the web a better place.</p>
 
     <PageWrapper>
             <h1>name="Where I’ve Worked" number={"02"}</h1> 
-            <div className="flex relative px-6 overflow-x-scroll  sm:hidden mb-10 text-white">
+            <div className="flex  w-[15rem] relative  overflow-x-scroll  sm:hidden mb-10 text-white">
               <div
                 className="absolute w-32 rounded-full transition-all delay-100 bg-white h-0.5 bottom-0"
                 style={{ left: `${whereIWork * 128}px` }}
@@ -63,7 +63,7 @@ With every line of code, I strive to make the web a better place.</p>
                 );
               })}
             </div>
-            <div className="flex gap-7 w-2/3 md:w-9/12">
+            <div className="flex gap-7  md:w-9/12">
               <div className="hidden relative sm:flex">
                 <div
                   className="absolute w-0.5 rounded-full transition-all delay-100 bg-white h-[34px]"
