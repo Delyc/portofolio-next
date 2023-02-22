@@ -1,0 +1,37 @@
+[
+    {
+      "where": "TheGym",
+      "name": "TheGymRwanda",
+      "link": "https://www.thegym-rwanda.com",
+      "role": "Developer",
+      "time": "Sep 2022",
+      "whoWeDo": [
+        "Our team specializes in delivering cutting-edge solutions for blockchain, Javascript And Solidity",
+        "We have extensive experience working with European companies, including Ape Unit, to develop top-notch blockchain applications.",
+        "Our expertise in Node.js, Javascript and ReactJS technology enables us to create seamless backend and frontend solutions for businesses."
+      ]
+    },
+    {
+      "where": "qwerty",
+      "name": "rw.qwerty",
+      "link": "https://github.com/rwqwerty",
+      "role": "Core Founder",
+      "time": "Jan 2021",
+      "whoWeDo": [
+        "Our team has a wealth of experience developing websites and apps for Rwandan companies, using the latest technologies including ReactJS, Node.js, PHP, Laravel, and Flutter.",
+        "Our expertise in the latest technology combined with our deep understanding of the Rwandan market allows us to provide customized, effective solutions for businesses of all sizes."
+      ]
+    },
+    {
+      "where": "LevelApp",
+      "name": "Levelapp",
+      "link": "https://github.com/HAN-Creative",
+      "role": "Core Founder",
+      "time": "Jan 2020",
+      "whoWeDo": [
+        "From radio stations website to e-commerce websites, we've helped businesses unlock their potential through innovative digital technology solutions, and we're just getting started."
+      ]
+    }
+  ]
+  
+  

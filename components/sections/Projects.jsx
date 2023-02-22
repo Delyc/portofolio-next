@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <PageWrapper>
             {fullstackProjects.map((project, index) => {
-                return(<ProjectsCard stacks={project.stacks} description={project.description} />)
+                return(<ProjectsCard key={index} index={index} title={project.company} stacks={project.stacks} description={project.description} />)
             })}
             
          

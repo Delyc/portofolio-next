@@ -2,22 +2,25 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-
+import { useState } from 'react'
 import Link from 'next/link'
 import {motion} from 'framer-motion'
-
+import { useRouter } from 'next/router'
+import Experience from '../data/Experience.json'
 const inter = Inter({ subsets: ['latin'] })
 import { projects } from '../data/projects'
 import profile from '../public/assets/profile.jpg'
 import Projects from '../components/sections/Projects'
+
 export default function Home() {
+  const router = useRouter()
+  const [whereIWork, setWhereIWork] = useState(0);
   return (
     <>
-<Projects />
 
-    {/* <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 px-6'>
 
-      <div className='text-xl w-full text-center text-white py-10 bg-gray-800'>Site currently under development, However you can be able to view some of the projects. <br /> THANK YOU :)</div>
+    <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 px-6'>
+
     <section className='xl:px-44 px-6 py-12 xl:flex xl:flex-row xl:justify-between xl:items-center flex flex-col gap-5'>
       <div className='flex flex-col gap-10'>
       <h1 className='text-white font-bold text-xl'>Hi, I am <br /></h1>
@@ -31,6 +34,92 @@ With every line of code, I strive to make the web a better place.</p>
 
       <Image src={profile} width={100} height={100} className="rounded-full xl:w-[24rem] xl:h-[20rem] w-[15rem] h-[15rem]" />
     </section>
+
+
+    <section>
+
+    </section>
+
+    <section
+            className="mb-[50px] pt-20 sm:mb-[130px] w-full sm:w-fit mx-auto"
+            id="Experience"
+          >
+            <h1>name="Where I’ve Worked" number={"02"}</h1> 
+            <div className="flex relative overflow-auto scrollbar--hidden sm:hidden mb-10">
+              <div
+                className="absolute w-32 rounded-full transition-all delay-100 bg-white h-0.5 bottom-0"
+                style={{ left: `${whereIWork * 128}px` }}
+              ></div>
+              {Experience.map((v, k) => {
+                return (
+                  <button
+                    key={k}
+                    onClick={() => setWhereIWork(k)}
+                    className={`px-5 outline-none py-2 min-w-[128px] w-32 text-[16px] transition-all delay-100 text-center ${
+                      whereIWork === k ? "text-white" : "text-secondary-100"
+                    }`}
+                  >
+                    {v.where}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="flex gap-7 w-full md:w-9/12">
+              <div className="hidden relative sm:flex">
+                <div
+                  className="absolute w-0.5 rounded-full transition-all delay-100 bg-white h-[34px]"
+                  style={{ top: `${whereIWork * 40}px` }}
+                ></div>
+                <div className="flex flex-col">
+                  {Experience.map((v, k) => {
+                    return (
+                      <button
+                        key={k}
+                        onClick={() => setWhereIWork(k)}
+                        className={`px-5 outline-none py-2 text-[16px] transition-all delay-100 text-start ${
+                          whereIWork === k ? "text-white" : "text-secondary-100"
+                        }`}
+                      >
+                        {v.where}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+              <div>
+                <h2 className="text-2xl font-medium text-secondary-200">
+                  {Experience[whereIWork].role}{" "}
+                  <span className="text-white">
+                    @{" "}
+                    <Link
+                      href={Experience[whereIWork].link}
+                      target="_blank"
+                      className="text--underline"
+                    >
+                      {Experience[whereIWork].name}
+                    </Link>
+                  </span>
+                </h2>
+                <p className="text-secondary-300 mt-2 mb-[25px]">
+                  {Experience[whereIWork].time} <span className="px-2">-</span>{" "}
+                  Present
+                </p>
+                {Experience[whereIWork].whoWeDo.map((v, k) => {
+                  return (
+                    <div className="flex gap-4" key={k}>
+                      <span className="text-lg text-white">{"▹"}</span>
+                      <p className="text-lg text-secondary-300 leading-6 mb-3">
+                        {v}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+          </section>
+
+    <Projects />
 
     <div className='w-full border border-gray-500 my-10'></div>
 
@@ -66,8 +155,8 @@ With every line of code, I strive to make the web a better place.</p>
 
      <footer className='my-10'>
       <a href="https://github.com/Delyc" className='text-white opacity-70'>Github</a>
-     </footer> */}
-     {/* </main> */}
+     </footer> 
+     </main>
     
     </>
   )
