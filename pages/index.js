@@ -118,6 +118,8 @@ With every line of code, I strive to make the web a better place.</p>
 
             </PageWrapper>
 
+    
+
     <Projects />
 
     <div className='w-full border border-gray-500 my-10'></div>

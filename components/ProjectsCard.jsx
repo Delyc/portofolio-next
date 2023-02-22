@@ -39,7 +39,7 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
                 <svg className="animate-bounce" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 12V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H12M8.11111 12H12M12 12V15.8889M12 12L5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
 
                     {stacks.map((stack, index) => {
                         return (
@@ -53,14 +53,14 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
                 variants={boxVariants}
                 initial="hidden"
                 animate={control}
-                className="relative flex order-1  h-[40vh] md:w-1/2">
+                className="relative flex order-1 h-[30vh] md:h-[40vh] md:w-1/2">
 
                 <div className="w-1/2 h-1/2 relative">
                     <Image layout="fill" className={`  rounded   ${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
 
                 </div>
 
-                <div className="w-3/5 h-3/5 absolute  top-[5rem] right-10">
+                <div className="w-3/5 h-3/5 absolute top-[3rem]  md:top-[5rem] right-0 md:right-10">
                     <Image layout="fill" className={` rounded ${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
 
                 </div>
