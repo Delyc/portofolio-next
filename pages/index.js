@@ -79,9 +79,6 @@ export default function Home() {
                     </g>
                   </g>
                 </svg>
-
-                {/* <svg fill="#ffffff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z" /></svg> */}
-
               </div>
 
             </div>
@@ -118,18 +115,13 @@ export default function Home() {
               </svg> TailwindCSS</p>
 
             </div>
-
-
-
           </section>
-
-
-
 
         </PageWrapper>
 
         <PageWrapper>
-          <h1>name="Where I’ve Worked" number={"02"}</h1>
+          <section className='mt-24'>
+          <h1 className='text-4xl text-[#1d99b3] font-bold my-10'>Where I've Worked</h1>
           <div className="flex  w-[18rem]  relative  overflow-x-scroll  sm:hidden mb-10 text-white">
             <div
               className="absolute w-32 rounded-full transition-all delay-100 bg-white h-0.5 bottom-0"
@@ -236,22 +228,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-
+          </section>
         </PageWrapper>
-
-
-
-
 
         <Projects />
 
 
 
-        <div className='w-full border border-gray-500 my-10'></div>
+<PageWrapper>
+<h1 className='text-4xl text-[#1d99b3] font-bold my-10'>Where I've Worked</h1>
 
-        <div className='xl:px-44 mt-10 px-6'>
-          <p className='text-white opacity-70 text-xl'>In my Free time, I like challenging myslf by creating diferent website's landing pages Which you can find below 🤩</p>
-        </div>
+
+          <p className='text-white/70 tracking-[1px] leading-[30px] text-xl'>In my Free time, I like challenging myslf by creating diferent website's landing pages Which you can find below 🤩</p>
         <section className='flex flex-wrap justify-center items-center  gap-10 mt-24'>
           {projects.map((project, index) => {
             return (
@@ -275,6 +263,7 @@ export default function Home() {
           })}
 
         </section>
+        </PageWrapper>
 
         <div className='w-full border border-gray-500 mt-24'></div>
 
