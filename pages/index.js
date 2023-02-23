@@ -31,15 +31,22 @@ export default function Home() {
         <section className='xl:px-44 px-6 py-12 md:flex md:flex-row md:justify-between md:items-center flex flex-col gap-5'>
           <div className='flex flex-col gap-10 md:w-1/2 lg:w-auto'>
             <h1 className='text-white font-bold text-xl'>Hi, I am <br /></h1>
-            <h1 className='text-3xl text-white font-bold'> Delyce Twizeyimana</h1>
-            <h1 className='md:text-6xl text-4xl text-[#1d99b3] font-bold'>A frontend developer</h1>
+            <h1 className='text-3xl text-white font-bold leading-[50px]'> Delyce Twizeyimana</h1>
+            <h1 className='md:text-6xl text-4xl text-[#1d99b3] font-bold leading-[50px]'>A frontend developer</h1>
             <p className='text-white/70 tracking-[1px] text-2xl w-full xl:w-3/5 leading-[2.5rem]'>I craft interactive and beautiful web apps, and I love what I do.
 
               With every line of code, I strive to make the web a better place.</p>
           </div>
 
+<div className='relative'>
+  <div className='relative z-50 rounded xl:w-[20rem] xl:h-[26rem] w-[15rem] h-[18rem]'>
+<Image src={profile}  className="absolute"  layout='fill'/>
 
-          <Image src={profile} width={100} height={100} className="rounded-full xl:w-[24rem] xl:h-[20rem] w-[15rem] h-[15rem]" />
+  </div>
+
+  <div className='absolute  border border-[#1d99b3] z-0 top-8 h-full w-full left-5'></div>
+
+</div>
         </section>
 
 
