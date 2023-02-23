@@ -32,8 +32,8 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
 
     return (
 
-        <div className='flex flex-col-reverse gap-10 h-auto md:flex md:flex-row justify-between md:h-[50vh]  mt-20  overflow-x-hidden'>
-            <div className={`xl:w-2/5 space-y-4 order-2 ${index % 2 !== 0 ? 'md:order-2' : 'md:order-1'}`}>
+        <div className='flex flex-col-reverse gap-10 h-auto md:flex md:flex-row justify-between lg:h-[50vh]  mt-20  overflow-x-hidden'>
+            <div className={`md:w-1/2 lg:w-2/5 space-y-4 order-2 ${index % 2 !== 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <p className="text-4xl text-white font-bold">{title}</p>
                 <p className="text-white/70 text-xl leading-[30px] tracking-[1px]">{description}</p>
                 <svg className="animate-bounce" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
                 variants={boxVariants}
                 initial="hidden"
                 animate={control}
-                className="relative  flex order-1 h-[30vh] md:h-[45vh] md:w-1/2">
+                className="relative  flex order-1 h-[30vh] md:h-[50vh] md:w-1/2">
 
                 <div className="w-1/2 h-3/5 relative">
                     <Image layout="fill" className={`  rounded   ${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
