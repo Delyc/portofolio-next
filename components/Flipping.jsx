@@ -43,7 +43,7 @@ const Flipping = () => {
     return ( 
         <>
         <PageWrapper>
-        <div className=" grid grid-cols-1 xl:grid-cols-4  relative gap-x-10 w-full mt-10">
+        <div className=" grid grid-cols-1 xl:grid-cols-4  gap-y-5 relative gap-x-10 w-full mt-10">
             {arr.map((ar, index) => {
                 return(
                     <CardFlip image={ar.image}/>
