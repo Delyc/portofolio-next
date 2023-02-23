@@ -44,8 +44,8 @@ export default function Home() {
 
 
         <PageWrapper>
-          <section className='flex gap-20 '>
-            <div className='flex flex-col  w-1/3'>
+          <section className='flex flex-col lg:flex lg:flex-row gap-20 '>
+            <div className='flex flex-col  lg:w-1/3'>
               <div className='flex gap-5 items-center'>
                 <svg fill="#ffffff" width="100px" height="100px" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z" /></svg>
                 <p className='text-white/70 text-lg leading-[30px] tracking-[1px]'>A 3rd Year computer science student at African Leadership Univeristy(ALU)</p>
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
 
             </div>
-            <div className='grid grid-cols-2 gap-x-5'>
+            <div className='grid grid-cols-2 gap-y-3 gap-x-5'>
               <p className='flex gap-2 text-white/70'><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 8H6C4.89543 8 4 8.89543 4 10V17C4 18.1046 4.89543 19 6 19H17C18.1046 19 19 18.1046 19 17V14M11 15V11C11 8.79086 12.7909 7 15 7H20M20 7L17 4M20 7L17 10" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
               </svg> JavaScript</p>
@@ -121,7 +121,7 @@ export default function Home() {
 
         <PageWrapper>
           <section className='mt-24'>
-          <h1 className='text-4xl text-[#1d99b3] font-bold my-10'>Where I've Worked</h1>
+          <h1 className='text-2xl lg:text-4xl text-[#1d99b3] font-bold my-10'>Where I've Worked</h1>
           <div className="flex  w-[18rem]  relative  overflow-x-scroll  sm:hidden mb-10 text-white">
             <div
               className="absolute w-32 rounded-full transition-all delay-100 bg-white h-0.5 bottom-0"
@@ -177,7 +177,7 @@ export default function Home() {
                 </span>
               </h2>
 
-              <div className='flex gap-5'>
+              <div className='flex flex-col lg:flex lg:flex-row lg:gap-5'>
 
 
                 <div className='flex gap-2 items-center py-3'>
@@ -217,7 +217,7 @@ export default function Home() {
                 );
               })}
 
-              <div className='flex gap-3 items-center'>
+              <div className='flex flex-wrap gap-3 items-center'>
 
                 <p className='text-white/70 text-lg'> Technologies: </p>
                 {Experience[whereIWork].stacks.map((stack, index) => {
@@ -236,14 +236,15 @@ export default function Home() {
 
 
 <PageWrapper>
-<h1 className='text-4xl text-[#1d99b3] font-bold my-10'>Where I've Worked</h1>
+<h1 className='text-4xl text-[#1d99b3] font-bold my-10'>Website clones</h1>
 
 
-          <p className='text-white/70 tracking-[1px] leading-[30px] text-xl'>In my Free time, I like challenging myslf by creating diferent website's landing pages Which you can find below 🤩</p>
-        <section className='flex flex-wrap justify-center items-center  gap-10 mt-24'>
+        <section className='flex flex-wrap justify-center items-center px-2  gap-10 xl:mt-24'>
+        <p className='text-white/70 tracking-[1px] leading-[30px] text-xl'>In my Free time, I like challenging myslf by creating diferent website's landing pages Which you can find below 🤩</p>
+
           {projects.map((project, index) => {
             return (
-              <div key={index} className='flex flex-col gap-5  border border-gray-500 test rounded-lg w-[20rem]'>
+              <div key={index} className='flex flex-col gap-5  border border-gray-500 test rounded-lg w-[16rem]'>
                 <p className='text-[#1d99b3] px-6 pt-6 font-bold text-xl'>{project.name}</p>
                 <Image className='w-full h-[25vh] px-6 object-cover' src={project.image} width={100} height={100} />
                 <div className='w-full px-6 flex flex-col gap-5 pb-6'>
