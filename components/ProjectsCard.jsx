@@ -36,7 +36,7 @@ const ProjectsCard = ({ deployedLink, title, description, image, stacks, index }
             <div className={`md:w-1/2 lg:w-2/5 space-y-4 order-2 ${index % 2 !== 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <p className="text-4xl text-white font-bold">{title}</p>
                 <p className="text-white/70 text-xl leading-[30px] tracking-[1px]">{description}</p>
-                <svg className="animate-bounce" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg  width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 12V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H12M8.11111 12H12M12 12V15.8889M12 12L5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <div className="flex flex-wrap gap-4">

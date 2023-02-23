@@ -1,6 +1,6 @@
 const PageWrapper = ({children}) => {
     return ( 
-        <section className="mx-auto max-w-[70rem] px-4">
+        <section className="mx-auto max-w-[70rem] px-4 ">
 
             {children}
 
