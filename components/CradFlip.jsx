@@ -16,7 +16,7 @@ const CardFlip = ({ image, backText }) => {
                 <div
                     className="grid w-[25rem] h-[15rem] gap-2"
                     onMouseEnter={() => handleClick()}
-                    // onMouseLeave={() => handleClick()}
+                    onMouseLeave={() => handleClick()}
                 >
                     <Image src={image} layout="fill" alt="test"  />
                     {/* <img src={image} alt={name} /> */}
