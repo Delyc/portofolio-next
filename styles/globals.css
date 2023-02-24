@@ -11,3 +11,7 @@ body, header{
 .test{
   background-color: #020024;
 }
+
+html {
+  scroll-behavior: smooth;
+}
