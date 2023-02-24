@@ -64,6 +64,9 @@ export default function Home() {
 
   return (
     <>
+    <Head>
+        <title>Delyc</title>
+      </Head>
 
 
       <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 '>
