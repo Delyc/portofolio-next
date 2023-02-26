@@ -81,7 +81,6 @@ export default function Home() {
 
       <main className='flex flex-col xl:max-w-[90rem] xl:mx-auto xl:px-0 '>
 
-        {/* <PageWrapper> */}
         <header className='flex items-center justify-between py-5 w-full px-20 fixed z-50'>
           <h1 className='text-[#1d99b3] text-4xl'>Delyce</h1>
           <nav className='flex items-center gap-10'>
