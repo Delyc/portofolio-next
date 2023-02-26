@@ -19,10 +19,7 @@ const CardFlip = ({ image, backText, link }) => {
                     onMouseLeave={() => handleClick()}
                 >
                     <Image src={image} layout="fill" alt="test" className=" bg-white/10 px-5 py-10" />
-                    {/* <img src={image} alt={name} /> */}
-                    {/* <label className="font-bold">{name}</label> */}
                     <label className="">
-                       
                     </label>
                 </div>
                 <div
