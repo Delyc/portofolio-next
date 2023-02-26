@@ -95,7 +95,6 @@ export default function Home() {
             <button className='border border-[#1d99b3] text-lg rounded px-5 py-3 text-white/70 tracking-[1px]'><Link href="mailto:delyce35@gmail.com">Hire me</Link></button>
           </nav>
         </header>
-        {/* </PageWrapper> */}
 
         <section id="" className='xl:px-44 mt-40 px-6 py-12 md:flex md:flex-row md:justify-between md:items-center flex flex-col gap-5'>
           <div className='flex flex-col gap-10 md:w-1/2 lg:w-auto'>
