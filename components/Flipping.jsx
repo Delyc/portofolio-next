@@ -13,7 +13,7 @@ const Flipping = () => {
 
     const arr = [
         {
-            image : "/assets/stripe.png",
+            image : "/assets/cinnamon.svg",
             back: "Cinnamon website clone, cloned using nextJS and tiwlindCSS",
             link: "https://cinnamon-clone-7jaqp79sg-delyc.vercel.app/"
 
@@ -27,16 +27,16 @@ const Flipping = () => {
         
 
         {
-            image : "/assets/stripe.png",
+            image : "/assets/cozy.svg",
             back: "Cozy website clone, cloned using nextJS and tiwlindCSS",
             link: "cozy-cloning-5tmjt1vgc-delyc.vercel.app"
 
         },
         
         {
-            image : "/assets/stripe.png",
-            back: "Buildt website clone, cloned using nextJS and tiwlindCSS",
-            link: "https://buildit-website-w3u3.vercel.app/"
+            image : "/assets/tumU.png",
+            back: "TUM university website clone, cloned using nextJS and tiwlindCSS",
+            link: "https://the-gym-clone-dec-symr-git-main-delyc.vercel.app/"
 
         },
         
@@ -47,7 +47,7 @@ const Flipping = () => {
     return ( 
         <>
         <PageWrapper>
-        <div className=" grid grid-cols-1 xl:grid-cols-4  gap-y-5 relative gap-x-10 w-full mt-10">
+        <div className=" grid grid-cols-1 xl:grid-cols-4   gap-y-5 relative gap-x-10 w-full mt-10">
             {arr.map((ar, index) => {
                 return(
                     <CardFlip image={ar.image} backText={ar.back} link={ar.link}/>
