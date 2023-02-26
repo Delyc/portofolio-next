@@ -22,13 +22,7 @@ const CardFlip = ({ image, backText, link }) => {
                     {/* <img src={image} alt={name} /> */}
                     {/* <label className="font-bold">{name}</label> */}
                     <label className="">
-                        {/* {type.map((el, index) => {
-                            return (
-                                <span className="mr-1" key={index}>
-                                    {el}
-                                </span>
-                            );
-                        })} */}
+                       
                     </label>
                 </div>
                 <div
