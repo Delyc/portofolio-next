@@ -88,9 +88,7 @@ export default function Home() {
             <ul className='flex items-center gap-10 text-white/70 text-xl'>
               {navLinks.map((link) => (
                 <li key={link.href} className="hover:text-white">
-                  {/* <Link href={link.href}> */}
                   <Link href={link.href} className={router.pathname === link.href ? 'text-[#1d99b3] font-bold' : ''}>{link.label}</Link>
-                  {/* </Link> */}
                 </li>
               ))}
             </ul>
@@ -385,7 +383,7 @@ export default function Home() {
 
 
         <section className='flex justify-center my-20'>
-          <section className='bg-black/10 rounded-[2rem] py-10 px-20 w-3/5 flex flex-col gap-5 items-center'>
+          <section className='bg-black/10 rounded-[2rem] py-10 xl:px-20 w-3/5 flex flex-col gap-5 items-center'>
 
             <h1 className='text-[#1d99b3] text-4xl '>Have any project in mind?</h1>
             <p className='text-white text-xl'>Contact me: </p>
@@ -424,16 +422,16 @@ export default function Home() {
 
 
 
-        {/* <div className='w-full border border-gray-500 mt-24'></div>
+        <div className='w-full border border-gray-500 mt-24'></div>
 
         <footer className='my-10'>
           <a href="https://github.com/Delyc" className='text-white opacity-70'>Github</a>
-        </footer> */}
+        </footer>
       </main>
 
-      <div className='border-t border-white/70 py-5 px-10'>
+      {/* <div className='border-t border-white/70 py-5 px-10'>
         <p className='text-md tracking-[1px] text-white/70'>Designed and developed by Delyce</p>
-      </div>
+      </div> */}
 
     </>
   )
