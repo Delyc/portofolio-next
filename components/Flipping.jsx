@@ -14,25 +14,29 @@ const Flipping = () => {
     const arr = [
         {
             image : "/assets/stripe.png",
-            back: "testtttting flip",
+            back: "Cinnamon website clone, cloned using nextJS and tiwlindCSS",
+            link: "https://cinnamon-clone-7jaqp79sg-delyc.vercel.app/"
 
         },
         {
             image : "/assets/stripe.png",
-            back: "testtttting flip",
-
-        },
-        
-
-        {
-            image : "/assets/stripe.png",
-            back: "testtttting flip",
+            back: "Strip clone, cloned using nextJS and tiwlindCSS",
+            link: "https://stripe-delyc.vercel.app/"
 
         },
         
+
         {
             image : "/assets/stripe.png",
-            back: "testtttting flip",
+            back: "Cozy website clone, cloned using nextJS and tiwlindCSS",
+            link: "cozy-cloning-5tmjt1vgc-delyc.vercel.app"
+
+        },
+        
+        {
+            image : "/assets/stripe.png",
+            back: "Buildt website clone, cloned using nextJS and tiwlindCSS",
+            link: "https://buildit-website-w3u3.vercel.app/"
 
         },
         
@@ -46,7 +50,7 @@ const Flipping = () => {
         <div className=" grid grid-cols-1 xl:grid-cols-4  gap-y-5 relative gap-x-10 w-full mt-10">
             {arr.map((ar, index) => {
                 return(
-                    <CardFlip image={ar.image}/>
+                    <CardFlip image={ar.image} backText={ar.back} link={ar.link}/>
                 )
             })}
                     {/* <ReactCardFlip  isFlipped={activeCard} flipDirection="horizontal">
