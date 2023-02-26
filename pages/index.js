@@ -424,9 +424,6 @@ export default function Home() {
 
         <div className='w-full border border-gray-500 mt-24'></div>
 
-        {/* <footer className='my-10'>
-          <a href="https://github.com/Delyc" className='text-white opacity-70'>Github</a>
-        </footer> */}
       </main>
 
       <div className='border-t border-white/70 py-5 px-10'>
