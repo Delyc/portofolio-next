@@ -417,11 +417,6 @@ export default function Home() {
           </section>
         </section>
 
-
-
-
-
-
         <div className='w-full border border-gray-500 mt-24'></div>
 
       </main>
