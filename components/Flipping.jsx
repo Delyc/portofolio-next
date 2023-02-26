@@ -57,16 +57,7 @@ const Flipping = () => {
                                
 
 
-                                {/* <ReactCardFlip  isFlipped={activeCard} flipDirection="horizontal">
-                                    <div className="front" onMouseEnter={() => handleCardClick()} onMouseLeave={() => handleCardClick()}>
-                                        <Image src={postImage} alt="Post image" />
-                                        <h1>Hwllpo</h1>
-                                    </div>
-                                    <div className="back" onClick={()=>handleCardClick}>
-                                        <h1>Back</h1>
-                                    </div>
-
-                                </ReactCardFlip> */}
+                            
 {/* 
                                 <ReactCardFlip  isFlipped={activeCard} flipDirection="horizontal">
                                     <div className="front" onMouseEnter={() => handleCardClick()} onMouseLeave={() => handleCardClick()}>
