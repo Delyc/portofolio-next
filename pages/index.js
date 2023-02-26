@@ -424,14 +424,14 @@ export default function Home() {
 
         <div className='w-full border border-gray-500 mt-24'></div>
 
-        <footer className='my-10'>
+        {/* <footer className='my-10'>
           <a href="https://github.com/Delyc" className='text-white opacity-70'>Github</a>
-        </footer>
+        </footer> */}
       </main>
 
-      {/* <div className='border-t border-white/70 py-5 px-10'>
+      <div className='border-t border-white/70 py-5 px-10'>
         <p className='text-md tracking-[1px] text-white/70'>Designed and developed by Delyce</p>
-      </div> */}
+      </div>
 
     </>
   )
