@@ -15,6 +15,7 @@ const fullstackProjects = [
 
     },
 
+
     {
         index: 2,
         title: "Be my voice",
@@ -46,6 +47,22 @@ const fullstackProjects = [
         ],
         image: "/assets/quiz.png"
 
+
+    },
+
+    {
+        index: 1,
+        title: "Meme Generator",
+        deployedLink: "https://main--dreamy-creponne-a997da.netlify.app/",
+        githubLink: "https://portofolio-delyc.vercel.app/",
+        description: "A good way to release your stress by inserting words and generate a meme with a random picture.",
+        stacks: [
+            { name: "Typescript" },
+            { name: "NextJS" },
+            { name: "Redux" },
+            { name: "TailwindCSS" },
+        ],
+        image: "/assets/easysearch.png"
 
     },
 
