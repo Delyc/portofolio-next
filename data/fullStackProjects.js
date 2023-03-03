@@ -36,7 +36,7 @@ const fullstackProjects = [
     {
         index: 3,
         title: "Quiz app",
-        deployedLink: "https://main--scintillating-puffpuff-bfb312.netlify.app/questions",
+        deployedLink: "https://main--scintillating-puffpuff-bfb312.netlify.app/",
         githubLink: "https://portofolio-delyc.vercel.app/",
         description: " A quiz app where users quiz, upon submission they receive their grades and a quiz collection.",
         stacks: [
