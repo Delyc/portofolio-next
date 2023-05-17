@@ -52,10 +52,10 @@ const fullstackProjects = [
 
     {
         index: 1,
-        title: "Meme Generator",
+        title: "TechSwine",
         deployedLink: "https://main--dreamy-creponne-a997da.netlify.app/",
         githubLink: "https://portofolio-delyc.vercel.app/",
-        description: "A good way to release your stress by inserting words and generate a meme with a random picture.",
+        description: "An E-commerce app for a piggery farm.",
         stacks: [
             { name: "Typescript" },
             { name: "NextJS" },
