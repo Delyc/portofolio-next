@@ -1,0 +1,58 @@
+  [
+  {
+    "image": "/assets/loug.PNG",
+    "compay": "Dee.ie",
+    "name": "LOUGH FOYLE Glamping Pods",
+    "detail":
+      "A luxury outdoor accommodation rental website designed for effortless online bookings, offering a seamless interface for users to find and reserve upscale rental pods.",
+    "tech": ["Alpine.JS", "Tailwind CSS","JavaScript", "HTML5"],
+    "link": "https://loughfoyleglamping.ie/"
+  },
+  {
+    "image": "/assets/audit.PNG",
+    "compay": "Dee.ie",
+    "name": "Audit My IT",
+    "detail":
+      "an independent online platform, Audit My IT, designed to democratize and streamline IT auditing for businesses across the UK",
+    "tech": ["JavaScript", "Alpine.js", "Tailwind CSS", "HTML5"],
+    "link": "https://auditmyit.co.uk/en-gb"
+  },
+  {
+    "image": "/assets/mur.png",
+    "compay": "Dee.ie",
+    "name": "Murphys Chemist",
+    "detail":
+    "Murphy's Chemist offers an online platform for health and pharmacy services, ensuring accessible and comprehensive care and medication management.",
+    "tech": ["Wordpress", "Elementor"],
+    "link": "https://wp.mycode.ie/"
+  },
+  {
+    "image": "/assets/security.png",
+    "compay": "Dee.ie",
+    "name": "Security App Pro",
+    "detail":
+      "Security App Pro, a revolutionary application aimed at simplifying security management and access control for businesses in Ireland.",
+    "tech": ["JavaScript", "Tailwind CSS", "Alpine JS", "HTML5"],
+    "link": "https://www.securityapp.pro/en-ie"
+  },
+  {
+    "image": "/assets/cozy.PNG",
+    "compay": "Capstone Project",
+    "name": "Cozy Gp",
+    "detail":
+    "Cozygo is an innovative house-hunting Frontend website designed to streamline the property search experience. It enables users to list properties, create and share wishlists, schedule viewings, and explore homes with ease, transforming the way users engage with the real estate market.",
+      
+    "tech": ["JavaScript", "Typescript", "Next.js", "Tailwind CSS", "Web sockets", ""],
+    "link": "https://cozy-go.netlify.app/"
+  },
+  {
+    "image": "/assets/swagger.PNG",
+    "compay": "Capstone Project",
+    "name": "House Hunting API",
+    "detail":
+      "Cozygo is an innovative house-hunting API designed to streamline the property search experience. It enables users to list properties, create and share wishlists, schedule viewings, and explore homes with ease, transforming the way users engage with the real estate market.",
+    "tech": ["Java", "Springboot", "Spring security", "Postgresql", "Thymeleaf", "Microservice"],
+    "link": "https://capstoneapi-production-b1ec.up.railway.app/swagger-ui/index.html"
+  }
+
+]

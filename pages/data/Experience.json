@@ -1,0 +1,44 @@
+[
+  {
+    "where": "Dee.ie",
+    "name": "Dee.ie",
+    "link": "https://dee.ie/en-ie",
+    "role": "Frontend Freelancer",
+    "time": "Aug 2023",
+    "endtime" : "Present",
+
+    "whoWeDo": [
+      "I joined the team as a frontend freelancer developer, leveraging HTML5, JavaScript (with an emphasis on DOM manipulation), and TailwindCSS.",
+      " I have worked on a variety of projects, focusing on enhancing user experience and interface design.",
+      "      Through my contributions, I have made a significant impact by optimizing page loading times, resulting in a 25% boost in website traffic and a 40% improvement in website performance metrics."
+    ]
+  },
+  {
+    "where": "EnAccess",
+    "name": "EnAccess",
+    "link": "https://enaccess.org/",
+    "role": "SOFTWARE ENGINEER",
+    "time": "May 2023 ",
+    "endtime" : "Apr 2024",
+    "whoWeDo": [
+      "I joined the team with the goal of enhancing software delivery efficiency and embarked on implementing CI/CD pipelines using GitHub Actions and Docker",
+      "I have played a crucial role in transitioning the company's legacy systems to a cloud-based infrastructure with DigitalOcean, aiming to boost scalability, reliability, and security",
+      "I have made a substantial impact, contributing to a 20% increase in customer satisfaction, a 30% improvement in system performance, and a 20% reduction in operational costs."
+    ]
+  },
+  {
+    "where": "Wastezon X",
+    "name": "Wastezon X",
+    "link": "https://wastezon.com/",
+    "role": "Frontend Engineer Fellow",
+    "time": "Nov 2022",
+    "endtime" : "May 2023",
+
+    "whoWeDo": [
+      "I joined as the frontend developer for Wastezon X, leveraging ReactJS, Tailwind CSS, and Redux to design a responsive and intuitive B2B application.",
+      "I have worked on achieving pixel-perfect fidelity across diverse devices, in collaboration with backend developers to ensure seamless API and database integrations for fluid data exchange and robust functionality.",
+   "I have made a significant impact by optimizing the application's performance, achieving a 40% improvement in response times. "
+    ]
+  }
+]
+

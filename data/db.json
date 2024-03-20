@@ -1,0 +1,48 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "JavaScript (ES6+)"
+    },
+    {
+      "id": 2,
+      "name": "TypeScript"
+    },
+    {
+      "id": 3,
+      "name": "React"
+    },
+    {
+      "id": 4,
+      "name": "Nextjs"
+    },
+    {
+      "id": 5,
+      "name": "Node.js"
+    },
+    {
+      "id": 6,
+      "name": "Dart"
+    },
+    {
+      "id": 7,
+      "name": "Flutter (Apps)"
+    },
+    {
+      "id": 8,
+      "name": "Figma"
+    },
+    {
+      "id": 9,
+      "name": "Thunkable"
+    },
+    {
+      "id": 10,
+      "name": "Eleventy"
+    },
+    {
+      "id": 11,
+      "name": "WordPress"
+    }
+  ]
+}
